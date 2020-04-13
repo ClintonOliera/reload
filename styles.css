@@ -2,8 +2,9 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
+    background-color:#508AA8;
 }
-
+ 
 .home-area {
     position: relative;
     background-image: url("https://images.pexels.com/photos/1983036/pexels-photo-1983036.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -43,6 +44,7 @@ table,tr,th,td {
 h1 {
     font-size: 50px;
     font-family: Audiowide;
+    text-align: center;
 }
 p {
     font-size: 24px;
@@ -59,7 +61,7 @@ p {
     background-color: #d4d7de;
     width: 100%;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 ul {
 text-align: right;
@@ -76,7 +78,7 @@ a {
     text-decoration: none;
     display: block;
     color: #000;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 a:hover {
     padding: 5px;
@@ -94,10 +96,11 @@ p {
     overflow: auto;
 }
 .gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: right;
-    width: 390px;
+    margin: 10px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 302px;
+    justify-content: space-evenly;
 }
 
 html {
@@ -110,4 +113,24 @@ html {
 }
 .contact-area , .gallery-area {
     background: #262626;
+}
+.id {
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+#desc {
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p3 {
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.f {
+    position:center;
+    float: right;
 }
